@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822884EE1C289D8E00A95584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822884ED1C289D8E00A95584 /* AppDelegate.swift */; };
+		822884F01C289D8E00A95584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822884EF1C289D8E00A95584 /* ViewController.swift */; };
+		822884F31C289D8E00A95584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822884F11C289D8E00A95584 /* Main.storyboard */; };
+		822884F51C289D8E00A95584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822884F41C289D8E00A95584 /* Assets.xcassets */; };
+		822884F81C289D8E00A95584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822884F61C289D8E00A95584 /* LaunchScreen.storyboard */; };
+		822885031C289D8E00A95584 /* HideImageApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822885021C289D8E00A95584 /* HideImageApplicationTests.swift */; };
+		8228850E1C289D8E00A95584 /* HideImageApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228850D1C289D8E00A95584 /* HideImageApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		822884FF1C289D8E00A95584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822884E21C289D8E00A95584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822884E91C289D8E00A95584;
+			remoteInfo = HideImageApplication;
+		};
+		8228850A1C289D8E00A95584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822884E21C289D8E00A95584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822884E91C289D8E00A95584;
+			remoteInfo = HideImageApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		822884EA1C289D8E00A95584 /* HideImageApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideImageApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822884ED1C289D8E00A95584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		822884EF1C289D8E00A95584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		822884F21C289D8E00A95584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		822884F41C289D8E00A95584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		822884F71C289D8E00A95584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		822884F91C289D8E00A95584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822884FE1C289D8E00A95584 /* HideImageApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideImageApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822885021C289D8E00A95584 /* HideImageApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideImageApplicationTests.swift; sourceTree = "<group>"; };
+		822885041C289D8E00A95584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822885091C289D8E00A95584 /* HideImageApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideImageApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8228850D1C289D8E00A95584 /* HideImageApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideImageApplicationUITests.swift; sourceTree = "<group>"; };
+		8228850F1C289D8E00A95584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822884E71C289D8E00A95584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822884FB1C289D8E00A95584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822885061C289D8E00A95584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822884E11C289D8E00A95584 = {
+			isa = PBXGroup;
+			children = (
+				822884EC1C289D8E00A95584 /* HideImageApplication */,
+				822885011C289D8E00A95584 /* HideImageApplicationTests */,
+				8228850C1C289D8E00A95584 /* HideImageApplicationUITests */,
+				822884EB1C289D8E00A95584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822884EB1C289D8E00A95584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822884EA1C289D8E00A95584 /* HideImageApplication.app */,
+				822884FE1C289D8E00A95584 /* HideImageApplicationTests.xctest */,
+				822885091C289D8E00A95584 /* HideImageApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822884EC1C289D8E00A95584 /* HideImageApplication */ = {
+			isa = PBXGroup;
+			children = (
+				822884ED1C289D8E00A95584 /* AppDelegate.swift */,
+				822884EF1C289D8E00A95584 /* ViewController.swift */,
+				822884F11C289D8E00A95584 /* Main.storyboard */,
+				822884F41C289D8E00A95584 /* Assets.xcassets */,
+				822884F61C289D8E00A95584 /* LaunchScreen.storyboard */,
+				822884F91C289D8E00A95584 /* Info.plist */,
+			);
+			path = HideImageApplication;
+			sourceTree = "<group>";
+		};
+		822885011C289D8E00A95584 /* HideImageApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				822885021C289D8E00A95584 /* HideImageApplicationTests.swift */,
+				822885041C289D8E00A95584 /* Info.plist */,
+			);
+			path = HideImageApplicationTests;
+			sourceTree = "<group>";
+		};
+		8228850C1C289D8E00A95584 /* HideImageApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8228850D1C289D8E00A95584 /* HideImageApplicationUITests.swift */,
+				8228850F1C289D8E00A95584 /* Info.plist */,
+			);
+			path = HideImageApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822884E91C289D8E00A95584 /* HideImageApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822885121C289D8E00A95584 /* Build configuration list for PBXNativeTarget "HideImageApplication" */;
+			buildPhases = (
+				822884E61C289D8E00A95584 /* Sources */,
+				822884E71C289D8E00A95584 /* Frameworks */,
+				822884E81C289D8E00A95584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideImageApplication;
+			productName = HideImageApplication;
+			productReference = 822884EA1C289D8E00A95584 /* HideImageApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		822884FD1C289D8E00A95584 /* HideImageApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822885151C289D8E00A95584 /* Build configuration list for PBXNativeTarget "HideImageApplicationTests" */;
+			buildPhases = (
+				822884FA1C289D8E00A95584 /* Sources */,
+				822884FB1C289D8E00A95584 /* Frameworks */,
+				822884FC1C289D8E00A95584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822885001C289D8E00A95584 /* PBXTargetDependency */,
+			);
+			name = HideImageApplicationTests;
+			productName = HideImageApplicationTests;
+			productReference = 822884FE1C289D8E00A95584 /* HideImageApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		822885081C289D8E00A95584 /* HideImageApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822885181C289D8E00A95584 /* Build configuration list for PBXNativeTarget "HideImageApplicationUITests" */;
+			buildPhases = (
+				822885051C289D8E00A95584 /* Sources */,
+				822885061C289D8E00A95584 /* Frameworks */,
+				822885071C289D8E00A95584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8228850B1C289D8E00A95584 /* PBXTargetDependency */,
+			);
+			name = HideImageApplicationUITests;
+			productName = HideImageApplicationUITests;
+			productReference = 822885091C289D8E00A95584 /* HideImageApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822884E21C289D8E00A95584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = JTech.donovanjohnson;
+				TargetAttributes = {
+					822884E91C289D8E00A95584 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PL26ZJ7D6A;
+					};
+					822884FD1C289D8E00A95584 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PL26ZJ7D6A;
+						TestTargetID = 822884E91C289D8E00A95584;
+					};
+					822885081C289D8E00A95584 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PL26ZJ7D6A;
+						TestTargetID = 822884E91C289D8E00A95584;
+					};
+				};
+			};
+			buildConfigurationList = 822884E51C289D8E00A95584 /* Build configuration list for PBXProject "HideImageApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 822884E11C289D8E00A95584;
+			productRefGroup = 822884EB1C289D8E00A95584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822884E91C289D8E00A95584 /* HideImageApplication */,
+				822884FD1C289D8E00A95584 /* HideImageApplicationTests */,
+				822885081C289D8E00A95584 /* HideImageApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		822884E81C289D8E00A95584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822884F81C289D8E00A95584 /* LaunchScreen.storyboard in Resources */,
+				822884F51C289D8E00A95584 /* Assets.xcassets in Resources */,
+				822884F31C289D8E00A95584 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822884FC1C289D8E00A95584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822885071C289D8E00A95584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822884E61C289D8E00A95584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822884F01C289D8E00A95584 /* ViewController.swift in Sources */,
+				822884EE1C289D8E00A95584 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822884FA1C289D8E00A95584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822885031C289D8E00A95584 /* HideImageApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822885051C289D8E00A95584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8228850E1C289D8E00A95584 /* HideImageApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822885001C289D8E00A95584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822884E91C289D8E00A95584 /* HideImageApplication */;
+			targetProxy = 822884FF1C289D8E00A95584 /* PBXContainerItemProxy */;
+		};
+		8228850B1C289D8E00A95584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822884E91C289D8E00A95584 /* HideImageApplication */;
+			targetProxy = 8228850A1C289D8E00A95584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		822884F11C289D8E00A95584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822884F21C289D8E00A95584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		822884F61C289D8E00A95584 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822884F71C289D8E00A95584 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822885101C289D8E00A95584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		822885111C289D8E00A95584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		822885131C289D8E00A95584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HideImageApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtech.donovanjohnson.HideImageApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		822885141C289D8E00A95584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HideImageApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtech.donovanjohnson.HideImageApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		822885161C289D8E00A95584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HideImageApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtech.donovanjohnson.HideImageApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideImageApplication.app/HideImageApplication";
+			};
+			name = Debug;
+		};
+		822885171C289D8E00A95584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HideImageApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtech.donovanjohnson.HideImageApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideImageApplication.app/HideImageApplication";
+			};
+			name = Release;
+		};
+		822885191C289D8E00A95584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HideImageApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtech.donovanjohnson.HideImageApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HideImageApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8228851A1C289D8E00A95584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HideImageApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtech.donovanjohnson.HideImageApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HideImageApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822884E51C289D8E00A95584 /* Build configuration list for PBXProject "HideImageApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822885101C289D8E00A95584 /* Debug */,
+				822885111C289D8E00A95584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822885121C289D8E00A95584 /* Build configuration list for PBXNativeTarget "HideImageApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822885131C289D8E00A95584 /* Debug */,
+				822885141C289D8E00A95584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		822885151C289D8E00A95584 /* Build configuration list for PBXNativeTarget "HideImageApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822885161C289D8E00A95584 /* Debug */,
+				822885171C289D8E00A95584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		822885181C289D8E00A95584 /* Build configuration list for PBXNativeTarget "HideImageApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822885191C289D8E00A95584 /* Debug */,
+				8228851A1C289D8E00A95584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822884E21C289D8E00A95584 /* Project object */;
+}
